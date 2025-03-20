@@ -18,11 +18,11 @@ GAM =  (RSCG×100%)/MRUSCG
 > magrittr  
 > ggplot2
 ### Installation
-if(!require(devtools,quietly = TRUE)){
-    install.packages("devtools")
-    library(devtools)}else{
-      library(devtools)}
-devtools::install_github("https://github.com/XiangZhouCAS/GCompip")
+if(!require(devtools,quietly = TRUE)){  
+    install.packages("devtools")  
+    library(devtools)}else{  
+      library(devtools)}  
+devtools::install_github("https://github.com/XiangZhouCAS/GCompip")  
 ### Database
 Ribo_14.dmnd  
 hyddb_all.dmnd (Søndergaard, D., Pedersen, C. & Greening, C. HydDB: A web tool for hydrogenase classification and analysis. Sci Rep 6, 34212 (2016). https://doi.org/10.1038/srep34212)  
