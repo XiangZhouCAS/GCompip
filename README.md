@@ -69,14 +69,14 @@ uscg_rpkm2GAM(input_geneset = "your/data/geneset.RPKM.txt",input_uscg_rpkm = "yo
 |-------|-------|
 |`input_reads`|Please set the reads to include only the forward reads if the data is paired-end (PE).|
 |`result`|Please set the name for the result file.|
-|`--threads`|Set the number of CPU threads, with the default value being 1.|
-|`--diamond_db`|Set the directory of universal single copy genes (USCGs) database.|
-|`--UCSG_db`|Please specify the directory for universal single-copy genes database (e.g., 'Ribo_14.dmnd'). If you have already calculated the RPKM for these genes, you may instead specify the directory for the results (e.g., 'sample_name.UCSG.hits.txt') to skip this step.|
-|`--skip_fastp`|If you have already filtered the reads, you can set this parameter to skip running fastp. The default is to run fastp.|
-|`--min_length`|Set the minimum length required for filtering reads, the default is 100, but it is recommended to set this parameter to 140 if hydrogenases or hydrogen metabolism terminal enzymes are to be calculated.|
-|`--run_seqkit`|If you have already counted the total number of reads using seqkit, you can specify the directory of the seqkit results (e.g., 'sample_name.all.reads.txt') to skip running seqkit. By default, seqkit will be executed.|
-|`--filter_condition`|Please specify the filter_condition file. By default, the identity is set to 50 and the coverage to 80.|
-|`--keep_samples`|By default, the temporary results will be deleted unless this parameter is setted.|
+|`threads`|Set the number of CPU threads, with the default value being 1.|
+|`diamond_db`|Set the directory of universal single copy genes (USCGs) database.|
+|`UCSG_db`|Please specify the directory for universal single-copy genes database (e.g., 'Ribo_14.dmnd'). If you have already calculated the RPKM for these genes, you may instead specify the directory for the results (e.g., 'sample_name.UCSG.hits.txt') to skip this step.|
+|`skip_fastp`|If you have already filtered the reads, you can set this parameter to skip running fastp. The default is to run fastp.|
+|`min_length`|Set the minimum length required for filtering reads, the default is 100, but it is recommended to set this parameter to 140 if hydrogenases or hydrogen metabolism terminal enzymes are to be calculated.|
+|`run_seqkit`|If you have already counted the total number of reads using seqkit, you can specify the directory of the seqkit results (e.g., 'sample_name.all.reads.txt') to skip running seqkit. By default, seqkit will be executed.|
+|`filter_condition`|Please specify the filter_condition file. By default, the identity is set to 50 and the coverage to 80.|
+|`keep_samples`|By default, the temporary results will be deleted unless this parameter is setted.|
 
 #### Example
 ```
