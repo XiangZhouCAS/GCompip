@@ -80,7 +80,7 @@ uscg_rpkm2GAM(input_geneset = "your/data/geneset.RPKM.txt",input_uscg_rpkm = "yo
 
 #### Example
 ```
-diamond_community(input_reads = "your/reads/data/sample_1.fastq",result = "sample_1",threads = 40,diamond_db = "your/database/ter_hydB-aprA.dmnd",USCG_db = "your/database/Ribo_14.dmnd",min_length = 75,filter_condition = "default")
+diamond_GAM(input_reads = "your/reads/data/sample_1.fastq",result = "sample_1",threads = 40,diamond_db = "your/database/ter_hydB-aprA.dmnd",USCG_db = "your/database/Ribo_14.dmnd",min_length = 75,filter_condition = "default")
 ```
 #### Note
 filter condition file demo:
