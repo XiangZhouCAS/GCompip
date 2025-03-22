@@ -46,7 +46,7 @@ ter.dmnd.gz ([Hydrogen metabolism terminal enzyme's database providede by Greeni
 #### Example
 
 ```
-ribo_rpkm(input_reads = "your/reads/data/sample_1.fastq",result = "sample_1",threads = 40,USCG_db = "your/database/Ribo_14.dmnd",skip_fastp = F,min_length = 75,run_seqkit = T,keep_samples = F)
+uscg_rpkm(input_reads = "your/reads/data/sample_1.fastq",result = "sample_1",threads = 40,USCG_db = "your/database/Ribo_14.dmnd",skip_fastp = F,min_length = 75,run_seqkit = T,keep_samples = F)
 ```
 
 ### uscg_rpkm()
