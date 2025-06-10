@@ -1,4 +1,3 @@
-#![Uploading 2a9096f2-e845-4947-9f83-4b069f732b8a.png…]()
  GCompip
 ## GCompip: A pipeline for gene abundance calculation in microbial communities.
 ## Introduction
