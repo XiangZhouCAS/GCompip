@@ -1,0 +1,22 @@
+Package: GCompip
+Title: GCompip: A pipeline for estimating the gene abundance in microbial communities.
+Version: 0.99.0
+Authors@R: 
+    person("Xiang", "Zhou", , "zhouxiang221@mails.ucas.ac.cn", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0000-7886-4659"))
+Description: To calculate the gene abundance in microbial community (GAM,%). This package will use fastp, seqkit, and diamond, which are biosoftware that exists in the Linux environment, so it needs to be run in a Linux environment.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends:
+    optparse,
+    tidyr,
+    dplyr,
+    magrittr,
+    data.table,
+    ggplot2
+Suggests: 
+    knitr,
+    rmarkdown
